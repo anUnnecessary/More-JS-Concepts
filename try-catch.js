@@ -10,10 +10,10 @@ function checkAge(){
             throw "Please enter a number";
         }
         else if(age < 18){
-            throw "bacha kaccha not allowed";
+            throw "Under ages are not allowed";
         }
         else if(age > 30){
-            throw "murobbi ra aikhan aisen na "
+            throw "30 ages murubbi's are not allowed here"
         }
         errorTag.innerHTML = '';
     }
